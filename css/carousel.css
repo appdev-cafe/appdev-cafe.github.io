@@ -70,6 +70,8 @@ body {
 .marketing .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
+  /*width: 33.33333%;*/
+  /*float: left;*/
 }
 .marketing h2 {
   font-weight: normal;
@@ -105,11 +107,16 @@ body {
   background-color: #dfdfdf;
 }
 
+/* Make table wider */
+.table_wider{
+  width: 230px;
+}
+
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -171,6 +178,10 @@ body {
   margin-top: -111px;
 }
 
+.anchor_offset2 {
+  padding-top: 101px;
+  margin-top: -101px;
+}
 /* IMAGE HOVER EFFECTS
 -------------------------------------------------- */
 
@@ -242,18 +253,21 @@ body {
 
 body,
 h1,
-h2,
-h3,
 h4,
 h5,
 h6,
 .h1,
-.h2,
-.h3,
 .h4,
 .h5,
 .h6 {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+h2,
+h3,
+.h2,
+.h3{
+  font-family: Montserrat;
 }
 
 /* LOGO

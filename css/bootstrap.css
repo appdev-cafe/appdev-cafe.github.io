@@ -6203,4 +6203,11 @@ button.close {
     display: none !important;
   }
 }
+
+/* CUSTOM CODE  */
+
+/*.marketing .col-lg-4 {
+width: 33.33333333% !important; 
+float: left;
+}*/
 /*# sourceMappingURL=bootstrap.css.map */
