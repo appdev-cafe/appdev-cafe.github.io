@@ -38,27 +38,41 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
+html, body {
+  height:100%;
+  margin:0;
+  padding:0;
+}
+.carousel, .item, .active {
+  height:100%;
+}
+.carousel-inner {
+  height:100%;
+}
 .carousel {
-  height: 500px;
   margin-bottom: 60px;
 }
-/* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
 }
-
-/* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
+.carousel .carousel-inner .bg {
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.carousel .carousel-inner .bg1 {
+  background-image:url("https://farm4.staticflickr.com/3839/14193082518_a081c0b7ed_k.jpg");
+  background-position: center bottom; 
+}
+.carousel .carousel-inner .bg2 {
+  background-image:url("https://farm8.staticflickr.com/7297/13942231608_a3e1e0e9c7_k.jpg");
+  background-position: center center; 
+}
+.carousel .carousel-inner .bg3 {
+  background-image:url("https://farm8.staticflickr.com/7402/14148931453_bccf988327_k.jpg");
+  background-position: center bottom; 
 }
 
 
@@ -183,6 +197,11 @@ body {
   margin-top: -101px;
 }
 
+.anchor_offset4 {
+  padding-top: 75px;
+  margin-top: -101px;
+}
+
 .anchor_offset3 {
   padding-top: 50px;
   margin-top: -50px;
@@ -292,6 +311,12 @@ h3,
   background-attachment: fixed;
 }
 
+.hand_pic_light{
+  background: url('keyboard-bg-light.jpg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
 /* FORMS
 -------------------------------------------------- */
 
@@ -313,8 +338,8 @@ h3,
 }
 
 .submit{
-  background: rgba(61, 201, 179, 0.5);
-  border: solid 1px rgba(61, 201, 179, 0.5);
+  background: rgba(239, 194, 60, 0.3);
+  border: solid 1px rgba(239, 194, 60, 0.5);
   padding: 20px;
   color: #fff;
   text-transform: uppercase;
@@ -323,4 +348,50 @@ h3,
   -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
+}
+
+/* CUSTOM CSS FOR FORM
+-------------------------------------------------- */
+
+@media (max-width: 767px) { /*sm*/
+  .center_form{
+    margin: 0 auto;
+    width: 100%;
+    padding-right: 25px;
+  }
+
+   .text-down{
+    padding-top: 50px;
+  }
+
+  .text-pad-right{
+    padding-right: 23px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .text-down{
+    margin-top: 100px;
+  } 
+}
+
+@media (min-width: 768px) { /*sm*/
+  .center_form{
+    padding-top: 35px;
+  }
+
+  .container_pad_left{
+    padding-left:20px;
+  }
+}
+
+/* CUSTOM CSS FOR "OUR SERVICES"
+-------------------------------------------------- */
+
+.white_icon{
+  fill: white;
+}
+
+.border:hover{
+
 }
