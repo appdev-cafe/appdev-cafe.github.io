@@ -388,10 +388,10 @@ h3,
 /* CUSTOM CSS FOR "OUR SERVICES"
 -------------------------------------------------- */
 
-.white_icon{
-  fill: white;
+.color_icon{
+  transition: fill .4s ease;
 }
 
-.border:hover{
-
+.color_icon:hover{
+  fill: #efc23c;
 }
