@@ -38,7 +38,7 @@ End of message
 mail($myemail, "Message submitted from CAFE Landing Page", $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: thanks.htm');
+header('Location: thanks.html');
 exit();
 
 /* Functions we used */

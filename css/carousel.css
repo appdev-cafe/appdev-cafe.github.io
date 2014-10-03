@@ -63,16 +63,16 @@ html, body {
   background-size:cover;
 }
 .carousel .carousel-inner .bg1 {
-  background-image:url("https://farm4.staticflickr.com/3839/14193082518_a081c0b7ed_k.jpg");
+  background-image:url("../images/Stock3.jpg");
   background-position: center bottom; 
 }
 .carousel .carousel-inner .bg2 {
-  background-image:url("https://farm8.staticflickr.com/7297/13942231608_a3e1e0e9c7_k.jpg");
+  background-image:url("../images/Stock2.jpg");
   background-position: center center; 
 }
 .carousel .carousel-inner .bg3 {
-  background-image:url("https://farm8.staticflickr.com/7402/14148931453_bccf988327_k.jpg");
-  background-position: center bottom; 
+  background-image:url("../images/Stock1.jpg");
+  background-position: center center; 
 }
 
 
