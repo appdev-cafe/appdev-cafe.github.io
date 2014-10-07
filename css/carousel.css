@@ -63,16 +63,16 @@ html, body {
   background-size:cover;
 }
 .carousel .carousel-inner .bg1 {
-  background-image:url("../images/Stock5.jpg");
+  background-image:url("../images/cafestock4.jpg");
   background-position: center bottom;
 }
 .carousel .carousel-inner .bg2 {
-  background-image:url("../images/Stock2-compressor.jpg");
-  background-position: center center; 
+  background-image:url("../images/wireless.jpg");
+  background-position: center bottom; 
 }
 .carousel .carousel-inner .bg3 {
-  background-image:url("../images/Stock1-compressor.jpg");
-  background-position: center center; 
+  background-image:url("../images/consultant2.jpg");
+  background-position: center top; 
 }
 
 
