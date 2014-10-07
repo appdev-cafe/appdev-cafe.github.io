@@ -5,6 +5,7 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
+  position: relative;
 }
 
 
@@ -394,4 +395,8 @@ h3,
 
 .color_icon:hover{
   fill: #efc23c;
+}
+
+.nav_transparent{
+	background-color:rgba(248,248,248,.7);
 }

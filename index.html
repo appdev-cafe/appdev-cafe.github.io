@@ -31,11 +31,11 @@
   
 <!-- NAVBAR
 	================================================== -->
-	<body>
+	<body data-spy="scroll" data-target=".navbar-collapse">
 		<div id = "home" class="navbar-wrapper anchor_offset">
 			<div class="container">
 
-				<div class="navbar navbar-default navbar-fixed-top" role="navigation" style="background-color:rgba(248,248,248,.8);">
+				<div id = "navbar" class="navbar navbar-default navbar-fixed-top nav_transparent" role="navigation">
 					<div class="container">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -48,11 +48,11 @@
 						</div>
 						<div class="navbar-collapse collapse">
 							<ul class="nav navbar-nav">
-								<li class="active"><a class = "smoothScroll" href="#home">HOME</a></li>
-								<li><a class = "smoothScroll" href="#hours_locations">HOURS & LOCATIONS</a></li>
-								<li><a class = "smoothScroll" href="#services">OUR SERVICES</a></li>
-								<li><a class = "smoothScroll" href="#jobs">JOBS</a></li>
-								<li><a class = "smoothScroll" href="#contactus">CONTACT US</a></li>
+								<li id = "home_nav" class="active"><a class = "smoothScroll" href="#home">HOME</a></li>
+								<li id = "hours_nav"><a class = "smoothScroll" href="#hours_locations">HOURS & LOCATIONS</a></li>
+								<li id = "services_nav"><a class = "smoothScroll" href="#services">OUR SERVICES</a></li>
+								<li id = "jobs_nav"><a class = "smoothScroll" href="#jobs">JOBS</a></li>
+								<li id = "contact_nav"><a class = "smoothScroll" href="#contactus">CONTACT US</a></li>
 							</ul>
 						</div>
 					</div>
@@ -76,6 +76,9 @@
     			<!-- <img src="http://ets.berkeley.edu/sites/default/files/mmf_int_0.jpg" alt="First slide"> -->
     			<div class="container">
     				<div class="carousel-caption">
+                    <div style="left:0;">
+                        Welcome to ETS Computer Facilities
+                    </div>
     					<!-- <h1>Example headline.</h1>
     					<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
     					<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p> -->
@@ -535,6 +538,8 @@
     <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
     <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script type="text/javascript" src="js/waypoints/waypoints.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 
@@ -546,6 +551,7 @@
     			$(this).addClass('active');
     		}
     		);
+
     </script>
 </body>
 </html>
