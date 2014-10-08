@@ -73,8 +73,8 @@ html, body {
   background-position: center bottom; 
 }
 .carousel .carousel-inner .bg3 {
-  background-image:url("../images/dark2.jpg");
-  background-position: center center; 
+  background-image:url("../images/olivia_eric2.jpg");
+  background-position: center top; 
 }
 
 
@@ -419,6 +419,11 @@ h3,
 .image0{
 	left: 10%;
 	width: 50%;
+}
+.image2{
+	left: 5%;
+	width: 35%;
+	bottom: 43%;
 }
 }
 
