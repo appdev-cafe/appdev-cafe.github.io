@@ -65,8 +65,8 @@ html, body {
 }
 
 .carousel .carousel-inner .bg1 {
-  background-image:url("../images/cafestock4.jpg");
-  background-position: center bottom;
+  background-image:url("../images/labs.jpg");
+  background-position: center center;
 }
 .carousel .carousel-inner .bg2 {
   background-image:url("../images/wireless.jpg");
