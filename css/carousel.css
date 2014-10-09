@@ -65,15 +65,15 @@ html, body {
 }
 
 .carousel .carousel-inner .bg1 {
-  background-image:url("../images/cafestock5.jpg");
+  background-image:url("../images/cafestock5-compressor.jpg");
   background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
-  background-image:url("../images/wireless.jpg");
+  background-image:url("../images/wireless-compressor.jpg");
   background-position: center bottom; 
 }
 .carousel .carousel-inner .bg3 {
-  background-image:url("../images/olivia_eric2.jpg");
+  background-image:url("../images/olivia_eric2-compressor.jpg");
   background-position: center top; 
 }
 
@@ -308,7 +308,7 @@ h3,
 -------------------------------------------------- */
 
 .hand_pic{
-  background: url('../images/olivia_dark.jpg');
+  background: url('../images/olivia_dark-compressor.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
 }
@@ -473,41 +473,80 @@ h3,
 	margin-top: 0px;
 }
 
-@media (min-width: 495px){
+@media (max-width: 495px){
 .description1 h1 {
 	font-family: Montserrat;
 	font-size: 27px;
 }
 
 .description1 h3{
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-	font-size: 20px;
+	font-family: Montserrat;
+	font-size: 8px;
 	margin-top: 0px;
 }
 }
 
-@media (min-width: 768px){
+@media (min-width: 496px) and (max-width: 768px){
 .description1 h1 {
 	font-family: Montserrat;
 	font-size: 40px;
 }
 
 .description1 h3{
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: Montserrat;
 	font-size: 15px;
 	margin-top: 0px;
 }
 }
 
-@media (min-width: 914px){
+@media (min-width: 769px) and (max-width: 914px){
+.description1 h1 {
+	font-family: Montserrat;
+	font-size: 39px;
+}
+
+.description1 h3{
+	font-family: Montserrat;
+	font-size: 14px;
+	margin-top: 0px;
+}
+}
+
+@media (min-width: 915px){
 .description1 h1 {
 	font-family: Montserrat;
 	font-size: 50px;
 }
 
 .description1 h3{
-	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-family: Montserrat;
 	font-size: 20px;
 	margin-top: 0px;
+}
+}
+
+/**/
+
+@media (max-width: 495px){
+.logo1{
+	height: 50px;
+}
+}
+
+@media (min-width: 496px) and (max-width: 767px){
+.logo1{
+	height: 75px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 913px){
+.logo1{
+	height: 75px;
+}
+}
+
+@media (min-width: 914px){
+.logo1{
+	height: 95px;
 }
 }
