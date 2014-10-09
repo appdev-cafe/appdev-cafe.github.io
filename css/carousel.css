@@ -309,8 +309,11 @@ h3,
 
 .hand_pic{
   background: url('../images/olivia_dark-compressor.jpg');
-  background-size: 100% 100%;
+  /*background-size: 100% 100%;*/
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
 }
 
 .hand_pic_light{
