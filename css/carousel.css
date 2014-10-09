@@ -65,8 +65,8 @@ html, body {
 }
 
 .carousel .carousel-inner .bg1 {
-  background-image:url("../images/labs.jpg");
-  background-position: center center;
+  background-image:url("../images/cafestock5.jpg");
+  background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
   background-image:url("../images/wireless.jpg");
@@ -308,7 +308,7 @@ h3,
 -------------------------------------------------- */
 
 .hand_pic{
-  background: url('keyboard-bg.jpg');
+  background: url('../images/olivia_dark.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
 }
@@ -418,12 +418,13 @@ h3,
 }
 .image0{
 	left: 10%;
-	width: 50%;
+	width: 38%;
+	bottom: 35%;
 }
 .image2{
 	left: 5%;
 	width: 35%;
-	bottom: 43%;
+	bottom: 45%;
 }
 }
 
@@ -447,8 +448,15 @@ h3,
 
 .description {
   padding: 20px;
-  background: rgb(34,34,34); /* for IE */
+  background: rgb(34,34,34); 
   background: rgba(34,34,34,0.75);
+/*  width: 65%;
+  margin-left: 420px;
+  margin-top: -100px;*/
+}
+
+.description1 {
+  padding: 20px;
 /*  width: 65%;
   margin-left: 420px;
   margin-top: -100px;*/
@@ -463,4 +471,43 @@ h3,
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-size: 20px;
 	margin-top: 0px;
+}
+
+@media (min-width: 495px){
+.description1 h1 {
+	font-family: Montserrat;
+	font-size: 27px;
+}
+
+.description1 h3{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 20px;
+	margin-top: 0px;
+}
+}
+
+@media (min-width: 768px){
+.description1 h1 {
+	font-family: Montserrat;
+	font-size: 40px;
+}
+
+.description1 h3{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 15px;
+	margin-top: 0px;
+}
+}
+
+@media (min-width: 914px){
+.description1 h1 {
+	font-family: Montserrat;
+	font-size: 50px;
+}
+
+.description1 h3{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 20px;
+	margin-top: 0px;
+}
 }
