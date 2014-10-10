@@ -553,3 +553,12 @@ h3,
 	height: 95px;
 }
 }
+
+/* ICON CUSTOM CSS
+-------------------------------------------------- */
+
+@media (max-width: 540px){
+.icon_spacing{
+	margin-left: 0px !important;
+}
+}
