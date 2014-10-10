@@ -515,7 +515,7 @@ h3,
 }
 }
 
-@media (min-width: 915px){
+@media (min-width: 915px) and (max-width: 1280px){
 .description1 h1 {
 	font-family: Montserrat;
 	font-size: 50px;
@@ -524,6 +524,19 @@ h3,
 .description1 h3{
 	font-family: Montserrat;
 	font-size: 20px;
+	margin-top: 0px;
+}
+}
+
+@media (min-width: 1281px){
+.description1 h1 {
+	font-family: Montserrat;
+	font-size: 60px;
+}
+
+.description1 h3{
+	font-family: Montserrat;
+	font-size: 26px;
 	margin-top: 0px;
 }
 }
@@ -548,12 +561,17 @@ h3,
 }
 }
 
-@media (min-width: 914px){
+@media (min-width: 914px) and (max-width: 1280px){
 .logo1{
 	height: 95px;
 }
 }
 
+@media (min-width: 1281px){
+.logo1{
+	height: 130px;
+}
+}
 /* ICON CUSTOM CSS
 -------------------------------------------------- */
 
