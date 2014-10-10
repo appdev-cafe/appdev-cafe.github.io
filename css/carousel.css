@@ -212,7 +212,7 @@ html, body {
 -------------------------------------------------- */
 
 /* Crossfade for Wheeler and WMF images */
-.bord{         
+/*.bord{         
   padding: 0;         
   margin: 0;         
   -webkit-box-sizing: border-box;          
@@ -235,9 +235,9 @@ html, body {
 .crossfd_wheeler img:hover{                     
   opacity: 0;                                
 } 
-
+*/
 /* Crossfade for VLSB and LSMF images */
-.crossfd_vlsb{         
+/*.crossfd_vlsb{         
   background: url("../images/lsmf.jpg");         
   display: inline-block;         
   font-size: 0;
@@ -254,9 +254,9 @@ html, body {
 .crossfd_vlsb img:hover{                     
   opacity: 0;                                
 } 
-
+*/
 /* Crossfade for Moffitt and MMF images */
-.crossfd_moffitt{         
+/*.crossfd_moffitt{         
   background: url("http://ets.berkeley.edu/sites/default/files/imagecache/Preview/mmf_int_0.jpg");         
   display: inline-block;         
   font-size: 0;
@@ -272,7 +272,7 @@ html, body {
 
 .crossfd_moffitt img:hover{                     
   opacity: 0;                                
-} 
+} */
 
 /* CHANGING FONTS
 -------------------------------------------------- */
@@ -425,9 +425,9 @@ h3,
 	bottom: 35%;
 }
 .image2{
-	left: 5%;
-	width: 35%;
-	bottom: 45%;
+	left: 10%;
+	width: 30%;
+	bottom: 43%;
 }
 }
 
