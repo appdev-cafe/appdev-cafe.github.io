@@ -419,11 +419,22 @@ h3,
 	left: 50%;
 	width: 40%;
 }
-.image0{
+@media (max-width: 1280px){
+	.image0{
 	left: 10%;
 	width: 38%;
 	bottom: 35%;
 }
+}
+
+@media (min-width: 1281px){
+	.image0{
+	left: 10%;
+	width: 45%;
+	bottom: 35%;
+}
+}
+
 .image2{
 	left: 10%;
 	width: 30%;
@@ -531,12 +542,12 @@ h3,
 @media (min-width: 1281px){
 .description1 h1 {
 	font-family: Montserrat;
-	font-size: 72px;
+	font-size: 74px;
 }
 
 .description1 h3{
 	font-family: Montserrat;
-	font-size: 34px;
+	font-size: 37px;
 	margin-top: 0px;
 }
 }
