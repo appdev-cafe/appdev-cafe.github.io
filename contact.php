@@ -25,11 +25,11 @@ $message = "Hello!
 
 Your contact form has been submitted by:
 
-Name: $name
+Name: $yourname
 E-mail: $email
 
 Message:
-$message
+$comments
 
 End of message
 ";
@@ -38,7 +38,7 @@ End of message
 mail($myemail, "Message submitted from CAFE Landing Page", $message);
 
 /* Redirect visitor to the thank you page */
-header('Location: thanks.html');
+header('Location: index.html#contactus');
 exit();
 
 /* Functions we used */
