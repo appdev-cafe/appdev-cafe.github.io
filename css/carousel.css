@@ -531,12 +531,12 @@ h3,
 @media (min-width: 1281px){
 .description1 h1 {
 	font-family: Montserrat;
-	font-size: 60px;
+	font-size: 70px;
 }
 
 .description1 h3{
 	font-family: Montserrat;
-	font-size: 26px;
+	font-size: 33px;
 	margin-top: 0px;
 }
 }
@@ -569,7 +569,7 @@ h3,
 
 @media (min-width: 1281px){
 .logo1{
-	height: 130px;
+	height: 170px;
 }
 }
 /* ICON CUSTOM CSS
