@@ -35,6 +35,14 @@ body {
   width: auto;
 }
 
+#navbar{
+  transition: .25s all linear;
+}
+
+.link_fade{
+  transition: .25s all linear;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -353,6 +361,16 @@ h3,
   -moz-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
+}
+
+.hidden_success{
+  opacity:0;
+  transition:opacity 1s linear;
+}
+
+.show_success{
+  opacity:1;
+  transition:opacity 1s linear;
 }
 
 /* CUSTOM CSS FOR FORM

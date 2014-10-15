@@ -58,4 +58,8 @@ $(document).ready(function() {
 		}
 	})
 
+	// $('#submit_button').submit(function(){
+	// 	$('#success_container').removeClass('hidden_success');
+	// })
+
 });

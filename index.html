@@ -25,7 +25,6 @@
 
       <!-- Fonts -->
       <link href='http://fonts.googleapis.com/css?family=Montserrat:100, 200, 400,300,700,600' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
 
   </head>
   
@@ -48,11 +47,11 @@
 						</div>
 						<div class="navbar-collapse collapse">
 							<ul class="nav navbar-nav">
-								<li id = "home_nav" class="active"><a class = "smoothScroll" href="#home">HOME</a></li>
-								<li id = "hours_nav"><a class = "smoothScroll" href="#hours_locations">HOURS & LOCATIONS</a></li>
-								<li id = "services_nav"><a class = "smoothScroll" href="#services">OUR SERVICES</a></li>
-								<li id = "jobs_nav"><a class = "smoothScroll" href="#jobs">JOBS</a></li>
-								<li id = "contact_nav"><a class = "smoothScroll" href="#contactus">CONTACT US</a></li>
+								<li id = "home_nav" class="active"><a class = "smoothScroll link_fade" href="#home">HOME</a></li>
+								<li id = "hours_nav"><a class = "smoothScroll link_fade" href="#hours_locations">HOURS & LOCATIONS</a></li>
+								<li id = "services_nav"><a class = "smoothScroll link_fade" href="#services">OUR SERVICES</a></li>
+								<li id = "jobs_nav"><a class = "smoothScroll link_fade" href="#jobs">JOBS</a></li>
+								<li id = "contact_nav"><a class = "smoothScroll link_fade" href="#contactus">CONTACT US</a></li>
                                 <li><a target="_blank" href="http://www.facebook.com/ETS.Computer.Facilities">FACEBOOK</a></li>
 							</ul>
 						</div>
@@ -74,7 +73,6 @@
     	</ol>
     	<div class="carousel-inner">
     		<div class="item bg bg1 active">
-    			<!-- <img src="http://ets.berkeley.edu/sites/default/files/mmf_int_0.jpg" alt="First slide"> -->
     			<div class="container">
     				<div class="carousel-custom image0">
     					<div class = "description1">
@@ -84,7 +82,6 @@
     			</div>
     		</div>
     		<div class="item bg bg2">
-    			<!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide"> -->
     			<div class="container">
     				<div class="carousel-custom image1">
                         <div class="description">
@@ -96,7 +93,6 @@
     			</div>
     		</div>
     		<div class="item bg bg3">
-    			<!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide"> -->
     			<div class="container">
     				<div class="carousel-custom image2">
                     <div class="description">
@@ -110,7 +106,8 @@
     	</div>
     	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
     	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
+    </div>
+    <!-- /.carousel -->
 
 
 
@@ -450,7 +447,7 @@
     </div>
     <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10" style="text-align: left; padding-left:30px;">
         <h3 style="border-bottom: 3px solid #efc23c;">Supply Lending</h3>
-        Need a pencil, tape, or even a charger? Come up to the front desk and see what's available to borrow!
+        Need a pencil, tape, or even a paper cutter? Come up to the front desk and see what's available to borrow!
     </div>
 </div>
 </div><!-- /.col-lg-4 -->
@@ -492,7 +489,7 @@
      </div>
      <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
          <h2 class="featurette-heading">Searching for a campus job? <span class="text-muted">Look no further.</span></h2>
-         <p class="lead">We are currently hiring for the Educational Technology Services Student Consultant position. We are looking to hire knowledgeable, friendly, and dedicated students who have Macintosh or PC software and hardware experience for the Fall 2014 semester with possible summer hours.</p>
+         <p class="lead">We are currently hiring for the Educational Technology Services Student Consultant position. We are looking to hire knowledgeable, friendly, and dedicated students who have Macintosh or PC software and hardware experience for the Spring 2015 semester with possible summer hours.</p>
 <p><a class="btn btn-default" href="http://cafe.berkeley.edu/jobs" role0="button">Apply Now!</a></p>
 
      </div>
@@ -505,15 +502,17 @@
    <div class="row featurette hand_pic" style="margin-right:0;">
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="padding-left: 60px;">
          <h2 class="featurette-heading text-down container_pad_left" style="color:white;">Drop us a message!</h2>
-         <p class="lead text-pad-right container_pad_left" style="color:white;">Have any questions or concerns regarding our facilities? Just fill out the form to the left, and we'll get back to you as soon as possible! Feel free to leave any comments and suggestions as well. </p>
+         <p class="lead text-pad-right container_pad_left" style="color:white;">Have any questions or concerns regarding our facilities? Just fill out the form to the right, and we'll get back to you as soon as possible! Feel free to leave any comments and suggestions as well. </p>
      </div>
      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" style="padding:20px;">
          <br>
-         <form class="center_form" style="text-align: right; margin-right: 50px;" action="contact.php" method="post">
+         <form id = "contact_form" class="center_form" style="text-align: right; margin-right: 50px;" action="contact.php" method="post">
           <input style="margin-bottom: 5px;" class="form_short" type="text" name="name" value="" placeholder="Full name goes here" required><br>
           <input style="margin-bottom: 5px;" class="form_short" type="email" name="email" value="" placeholder="Email address goes here" required><br>
           <textarea style="margin-bottom: 5px;" class="form_long" name="comments" value="" placeholder="Your message to us" required></textarea><br>
-          <input class="submit" type="submit" name="" value="SUBMIT">  
+          <!-- <span id = "success_container" class = "hidden_success">
+          <span style="margin-right:4px;"><img src = "images/check.png" height=25px style="margin-top:-3px;"></span>
+<span style="margin-right:15px; font-family: Montserrat; color: white; font-size: 15px;">SUCCESS!</span></span> --><input id ="submit_button" class="submit" type="submit" name="" value="SUBMIT">  
       </form>
       <br>&nbsp;
   </div>
@@ -525,9 +524,9 @@
 <div class="container marketing anchor_offset4">
 
    <!-- FOOTER -->
-   <footer>
+   <footer style="margin-bottom: 25px;">
       <p class="pull-right"><a href="#home" class="smoothScroll">Back to top</a></p>
-      <p>&copy; 2014 ETS Computer Facilities &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <p>&copy; 2014 ETS Computer Facilities &middot; <a target="_blank" href="http://ets.berkeley.edu/help/computer-facility-policy">Computer Facility Policy</a> &middot; <a target ="_blank" href="http://ets.berkeley.edu/help/computer-facility-services-0">Computer Facility Services</a></p>
   </footer>
 
 </div><!-- /.container -->
@@ -537,7 +536,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
-    <script src="http://getbootstrap.com/assets/js/docs.min.js"></script>
+    <!--<script src="http://getbootstrap.com/assets/js/docs.min.js"></script>-->
     <script type="text/javascript" src="js/smoothscroll.js"></script>
     <script type="text/javascript" src="js/waypoints/waypoints.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
@@ -546,12 +545,14 @@
 
     <!-- Navbar click stuff -->
     <script>
-    	$("a.smoothScroll").parent().click(
-    		function(){
-    			$('a.smoothScroll').parent().removeClass('active');
-    			$(this).addClass('active');
-    		}
-    		);
+        $("#contact_form")[0].reset();
+    	// $("a.smoothScroll").parent().click(
+    	// 	function(){
+     //            debugger;
+    	// 		$('a.smoothScroll').parent().removeClass('active');
+    	// 		$(this).addClass('active');
+    	// 	}
+    	// 	);
 
     </script>
 </body>
