@@ -65,4 +65,8 @@ $(document).ready(function() {
 	$('#waypoint1').waypoint(function() {
 		$('.wp1').addClass('animated fadeInUp');
 	})
+
+	$('#myCarousel').waypoint(function() {
+		$('.wp2').addClass('animated fadeIn');
+	})
 });
