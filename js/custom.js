@@ -62,4 +62,7 @@ $(document).ready(function() {
 	// 	$('#success_container').removeClass('hidden_success');
 	// })
 
+	$('#hours_locations').waypoint(function() {
+		$('.wp1').addClass('animated fadeInUp');
+	})
 });
