@@ -67,6 +67,6 @@ $(document).ready(function() {
 	})
 
 	$('#myCarousel').waypoint(function() {
-		$('.wp2').addClass('animated fadeIn');
+		$('.wp2').addClass('animated fadeInDown');
 	})
 });
