@@ -318,9 +318,18 @@ h3,
 .hand_pic{
   background: url('../images/olivia_dark-compressor.jpg');
   /*background-size: 100% 100%;*/
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-size: cover;
-  background-position: center bottom;
+  background-position: center center;
+  /*background-repeat: no-repeat;*/
+}
+
+.hand_pic2{
+  background: url('../images/olivia_dark-compressor.jpg');
+  /*background-size: 100% 100%;*/
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  background-position: center top;
   /*background-repeat: no-repeat;*/
 }
 
@@ -435,7 +444,8 @@ h3,
 	.image0{
 	left: 10%;
 	width: 38%;
-	bottom: 35%;
+	/*bottom: 35%;*/
+  top: 22%;
 }
 }
 
@@ -443,7 +453,8 @@ h3,
 	.image0{
 	left: 10%;
 	width: 45%;
-	bottom: 35%;
+	/*bottom: 35%;*/
+  top: 22%;
 }
 }
 
@@ -608,7 +619,12 @@ h3,
 /* ANIMATIONS 
 ----------------------------------------------------*/
 
-.wp1, .wp2, .wp3, .wp4, .wp5, .wp6 { visibility: hidden; }
+.wp1, .wp2, .wp3, .wp3-1, .wp3-2, .wp3-3, .wp3-4, .wp3-5, .wp3-6,.wp4, .wp5, .wp6, .wp7 { visibility: hidden; }
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight, .fadeIn { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
+
+.delay-02s { animation-delay: 0.2s; -webkit-animation-delay: 0.2s; }
+.delay-04s { animation-delay: 0.4s; -webkit-animation-delay: 0.4s; }
+.delay-06s { animation-delay: 0.6s; -webkit-animation-delay: 0.6s; }
+.delay-08s { animation-delay: 0.8s; -webkit-animation-delay: 0.8s; }

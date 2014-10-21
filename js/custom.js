@@ -69,4 +69,44 @@ $(document).ready(function() {
 	$('#myCarousel').waypoint(function() {
 		$('.wp2').addClass('animated fadeInDown');
 	})
+
+	$('#services').waypoint(function() {
+		$('.wp3').addClass('animated fadeInLeft');
+	})
+
+	$('#services').waypoint(function() {
+		$('.wp4').addClass('animated fadeInRight delay-05s');
+	})
+
+	$('#jobs').waypoint(function() {
+		$('.wp6').addClass('animated bounceInLeft');
+	})
+
+	$('#jobs').waypoint(function() {
+		$('.wp7').addClass('animated bounceInRight delay-05s');
+	})
+
+	$('#moffit_pic').waypoint(function() {
+		$('.wp3-1').addClass('animated fadeInDown');
+	})
+
+	$('#moffit_pic').waypoint(function() {
+		$('.wp3-2').addClass('animated fadeInDown delay-02s');
+	})
+
+	$('#moffit_pic').waypoint(function() {
+		$('.wp3-3').addClass('animated fadeInDown delay-04s');
+	})
+
+	$('#moffit_pic').waypoint(function() {
+		$('.wp3-4').addClass('animated fadeInDown delay-06s');
+	})
+
+	$('#moffit_pic').waypoint(function() {
+		$('.wp3-5').addClass('animated fadeInDown delay-08s');
+	})
+
+	$('#moffit_pic').waypoint(function() {
+		$('.wp3-6').addClass('animated fadeInDown delay-1s');
+	})
 });
