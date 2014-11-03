@@ -2,6 +2,7 @@ body{
 	background-image: url('../images/wireless-compressor.jpg');
 	background-size: cover;
 	background-position: center center;
+
 }
 
 .overlay{
@@ -19,6 +20,9 @@ body{
 	left: 50%;
     top: 34%;
     transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
     z-index: 2;
     position: absolute;
     color: white;
@@ -33,6 +37,9 @@ body{
 	left: 50%;
     top: 34%;
     transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
     z-index: 2;
     position: absolute;
     color: white;
@@ -51,6 +58,9 @@ body{
 	left: 50%;
     top: 34%;
     transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
     margin-top: 135px;
     width: 435px;
 }
