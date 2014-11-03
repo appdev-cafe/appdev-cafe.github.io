@@ -49,9 +49,9 @@ body{
 	position: absolute;
 	z-index: 2;
 	left: 50%;
-    top: 25%;
+    top: 32%;
     transform: translate(-50%,-50%);
-    margin-top: 180px;
+    margin-top: 135px;
     width: 435px;
 }
 
