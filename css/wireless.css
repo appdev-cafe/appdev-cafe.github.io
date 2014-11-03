@@ -2,6 +2,7 @@ body{
 	background-image: url('../images/wireless-compressor.jpg');
     -moz-background-size: cover;
     background-size: cover;
+    -moz-background-position: center center;
 	background-position: center center;
     background-repeat: no-repeat;
 
