@@ -78,13 +78,13 @@ $(document).ready(function() {
 		$('.wp4').addClass('animated fadeInRight delay-05s');
 	})
 
-	$('#jobs').waypoint(function() {
-		$('.wp6').addClass('animated bounceInLeft');
-	})
+	// $('#jobs').waypoint(function() {
+	// 	$('.wp6').addClass('animated bounceInLeft');
+	// })
 
-	$('#jobs').waypoint(function() {
-		$('.wp7').addClass('animated bounceInRight delay-05s');
-	})
+	// $('#jobs').waypoint(function() {
+	// 	$('.wp7').addClass('animated bounceInRight delay-05s');
+	// })
 
 	$('#moffit_pic').waypoint(function() {
 		$('.wp3-1').addClass('animated fadeInDown');
